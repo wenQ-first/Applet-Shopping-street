@@ -1,0 +1,11 @@
+/* pages/home/home.wxss */
+.tab-control {
+  margin-top: 60px;
+}
+.fashion{
+  width: 100%;
+  height: 600rpx;
+}
+scroll-view{
+  height: 100vh;
+}

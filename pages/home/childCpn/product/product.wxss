@@ -1,0 +1,28 @@
+/* pages/home/childCpn/product/product.wxss */
+.father{
+  display: flex;
+  margin-top: -20rpx;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.son{
+  width: 48%;
+  margin-top: 20rpx;
+}
+.img{
+  width: 100%;
+}
+.text-content{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.left{
+  margin-left: 10rpx;
+  color:#ff5777;
+}
+.right{
+  float: right;
+  margin-right: 50rpx;
+  color:#ff5777 ;
+}

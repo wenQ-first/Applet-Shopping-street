@@ -1,0 +1,14 @@
+<!--pages/home/home.wxml-->
+<!-- <scroll-view scroll-y
+             bindscroll='scrollBig'> -->
+    <!-- 轮播图区域 -->
+    <cSwiper banners='{{banners}}'></cSwiper>
+    <!-- 推荐栏板块 -->
+    <cRecomond recommend='{{recommend}}'></cRecomond>
+    <!-- 图片模块 -->
+    <image src="/assets/home/photo.jpg" class="fashion"></image>
+    <!-- tab栏 -->
+    <tab-control id='tabControl' class='tab-control' titles='{{["流行","新款","精选"]}}' bind:tabControlCilck='tabClick'></tab-control>
+      <!-- 商品渲染板块 -->
+    <cProduct tabData='{{tabConData[currentName].list}}'></cProduct>
+<!-- </scroll-view> -->

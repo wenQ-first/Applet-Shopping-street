@@ -1,0 +1,29 @@
+<!--pages/classify/classify.wxml-->
+
+<!-- 左侧导航栏 -->
+
+<view class="out">
+<!-- 左侧滚动区域 -->
+ <scroll-view scroll-y  class="left-scroll" >
+  <view class="left">
+    <view class="left-content {{currentIndex == index ? 'active-item' :'' }}" wx:for='{{leftNavData}}' wx:key='{{index}}'  bindtap="itemClick" data-index='{{index}}'> 
+    {{item.title}}
+    </view>
+  </view>
+   </scroll-view>
+
+  <!-- 右侧滚动区域 -->
+    <scroll-view scroll-y >
+  <view class="right">
+    <view class="right-content" wx:for='{{currentRightData}}'>
+      <image src="{{item.image}}"></image>
+      <view class="text-content">
+            <text>{{item.title}}</text>
+      </view>
+    </view>
+  </view>
+        </scroll-view>
+
+</view>
+
+

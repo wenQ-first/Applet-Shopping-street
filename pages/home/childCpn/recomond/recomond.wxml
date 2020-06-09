@@ -1,0 +1,7 @@
+<!--pages/home/childCpn/recomond/recomond.wxml-->
+<view class="rec-outer">
+  <view wx:for='{{recommend}}' class="rec-inter" wx:key='{{index}}'>
+    <image src="{{item.image}}"></image>
+    <text>{{item.title}}</text>
+  </view>
+</view>

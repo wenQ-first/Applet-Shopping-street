@@ -1,0 +1,13 @@
+<!--pages/home/childCpn/product/product.wxml-->
+<view class="father">
+  <view class="son" wx:for='{{tabData}}' wx:key='{{index}}'>
+    <image src="{{item.show.img}}" class="img" bindtap="imgCilck" data-item='{{item}}'></image>
+    <view class="text-content">
+      <text>{{item.title}}</text>
+    </view>
+     <view class="price">
+      <text class="left">￥{{item.price}}</text>
+      <text class="right">{{item.cfav}}</text>
+    </view>
+  </view>
+</view>

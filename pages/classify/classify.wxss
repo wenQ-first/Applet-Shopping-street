@@ -1,0 +1,36 @@
+/* pages/classify/classify.wxss */
+.out{
+  display: flex;
+
+}
+.right{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.text-content{
+  margin-top: 25rpx;
+  text-align: center;
+}
+.right-content image{
+  width: 130rpx;
+  height: 130rpx;
+}
+.left-content{
+  line-height: 88rpx;
+  text-align: center;
+  background-color: #F6F6F6;
+}
+.active-item{
+  background-color: #fff;
+  color: #ff5777;
+}
+scroll-view {
+  width: 70%;
+  height: 100vh;
+}
+.left-scroll{
+  width: 30%;
+  height: 100vh;
+}
+

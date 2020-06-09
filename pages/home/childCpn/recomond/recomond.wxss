@@ -1,0 +1,20 @@
+/* pages/home/childCpn/recomond/recomond.wxss */
+.rec-outer{
+  display: flex;
+  padding-bottom: 35rpx;
+  margin-top: 20rpx;
+  justify-content: space-around;
+  border-bottom: 20rpx #eee solid;
+}
+.rec-inter{
+  flex: 1;
+  color: #000;
+  font-weight: 500;
+  vertical-align: middle;
+  text-align: center;
+}
+.rec-inter image{
+  width: 160rpx;
+  height: 150rpx;
+  margin-bottom: 10rpx;
+}

@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "tab-control":"/component/tabControl/tabControl",
+    "cSwiper":"./childCpn/swiper",
+    "cRecomond": "./childCpn/recomond/recomond",
+    "cProduct": "./childCpn/product/product"
+  },
+  "navigationBarTitleText": "购物街",
+  "enablePullDownRefresh": true
+}

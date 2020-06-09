@@ -1,0 +1,10 @@
+<!-- 轮播图 -->
+<swiper indicator-dots
+        autoplay
+        circular
+        duration='{{300}}'
+        interval='{{2000}}'
+        indicator-active-color='#ff5777'
+>
+  <swiper-item wx:for='{{banners}}' wx:key='{{index}}'> <image src='{{item.image}}' mode="widthFix"></image></swiper-item>
+</swiper>

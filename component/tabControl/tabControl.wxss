@@ -1,0 +1,21 @@
+/* component/tabControl/tabControl.wxss */
+.outer{
+  display: flex;
+  position: sticky;
+  top: 0;
+  height: 88rpx;
+  line-height: 88rpx;
+  background-color: #fff;
+  box-shadow: #eee 1px 1px 1px 0px;
+}
+.inter{
+  flex: 1;
+  text-align: center;
+}
+.active{
+  color: red;
+}
+.active text{
+  padding: 12rpx;
+  border-bottom: 6rpx solid red;
+}
